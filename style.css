@@ -1,0 +1,223 @@
+*{
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 10px;
+    color: rgb(51, 48, 112);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px black;
+    color: rgb(255, 255, 255);
+}
+
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 60%;
+    right: 82%;
+    color: rgb(255, 255, 255);
+}
+
+h1:hover{
+    text-shadow: 2px 4px 6px rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+span{
+    color:rgb(50, 193, 225);
+    font-weight: bolder;
+}
+
+h2{
+    color: rgb(169, 149, 149);
+}
+
+#home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #home::before{
+     content: "";
+     background-image: url(https://www.holycode.com/wp-content/uploads/2023/07/developer-looking-at-code-1.jpg);
+     height: 100%;
+     background-size: cover;
+ }
+ 
+
+.main{
+    display: flex;
+    position: absolute;
+    border: 3px ridge rgb(0, 0, 0);
+    padding: 20px;
+    top: 90%;
+    margin-left: 50px;
+    width: 250px;
+    box-shadow: 2px 4px 6px white;
+}
+
+.main:hover{
+    scale: 1.03;
+}
+
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 400px;
+}
+
+.pic h4{
+    color: rgb(47, 30, 88);
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    background-color: rgb(71, 111, 98);
+}
+
+.gallery{
+    border: 5px groove rgb(71, 111, 98);
+    margin-top: 5px;
+    box-shadow: 2px 4px 6px rgb(141, 129, 151);
+}
+
+.gallery img{
+    width: 450px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    scale: 1.05;
+    box-shadow: 2px 4px 6px blueviolet; 
+}
+
+.row{
+    background-color: grey;
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.box{
+    width: 400px;
+    margin: 5px;
+    height: 450px;
+    border: 2px inset blueviolet;
+    background: linear-gradient(to top,rgb(183, 204, 202)50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+
+.box:hover{
+    background-position: right bottom;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 30%;
+}
+
+
+.box h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+
+.box p{
+    text-align: justify;
+    font-style: italic;
+    padding: 10px;
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    color: antiquewhite;
+    background-color: rgb(28, 32, 32);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cv{
+    background-color: rgb(28, 32, 32);
+    color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 60% ;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f10f0f; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #a20404; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
